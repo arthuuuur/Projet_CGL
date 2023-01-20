@@ -1,0 +1,69 @@
+:root{
+  --bg-primary: #f9faf5;
+  --bg-secondary: #e6e6e5;
+  --primary: #025139;
+  --secondary-dark: #075951;
+  --secondary: #0D7360;
+  --secondary-light: #18D9B5;
+  --tertiary: #D98162;
+}
+
+html {
+  height: 100vh;
+}
+
+body {
+  background-color: var(--bg-secondary) !important;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+table{
+  max-width: 100%;
+  overflow-x: scroll;
+}
+
+svg{
+  height: 2.5rem;
+}
+
+svg:hover{
+  fill: var(--secondary);
+}
+
+svg{
+  fill: orange;
+}
+
+nav.bg-dark{
+  background-color: var(--primary) !important;
+}
+
+.btn{
+  background-color: var(--secondary-light);
+  border-color: var(--secondary);
+}
+.btn:hover{
+  background-color: var(--secondary);
+  border-color: var(--secondary-dark);
+}
+
+main {
+  flex: 1;
+  margin-top: 10px;
+}
+
+.hrefLink {
+  text-decoration: none;
+
+}
+
+.hrefLink:hover {
+  text-decoration: none;
+  color: #ffcc00;
+}
+
+.fa-trash {
+  color: #ff0000;
+}
