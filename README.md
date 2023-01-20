@@ -1,3 +1,5 @@
+L'application est accessible à l'adresse suivante : http://88.160.237.47:56987
+
 Pour la base de données:
 
 I/ Via docker
